@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: Product Update API
+  version: 1.0.0
+paths:
+  /product/update:
+    put:
+      summary: Update a product
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: 'product-dto.yaml#/components/schemas/ProductDto'
+      responses:
+        '200':
+          description: Successful update
+          content:
+            application/json:
+              schema:
+                $ref: 'product-dto.yaml#/components/schemas/ProductDto'
+        '404':
+          description: Product not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Product does not exist!

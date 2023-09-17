@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: Product DTO Definition
+  version: 1.0.0
+components:
+  schemas:
+    ProductDto:
+      type: object
+      properties:
+        productId:
+          type: integer
+        name:
+          type: string
+        price:
+          type: number
+          format: double
+      required:
+        - name
+        - price
