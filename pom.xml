@@ -115,7 +115,7 @@
                             </configOptions>
                         </configuration>
                     </execution>
-                   <!-- <execution>
+                    <execution>
                         <id>generate-openapi-yaml</id>
                         <goals>
                             <goal>generate</goal>
@@ -132,7 +132,7 @@
                                 <outputFile>openapi.yaml</outputFile>
                             </configOptions>
                         </configuration>
-                    </execution>-->
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
