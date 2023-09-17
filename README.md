@@ -33,6 +33,10 @@ mvn spring-boot:run
 Open in the browser:
 http://localhost:8080/swagger-ui/index.html
 
+### Where do I find the generated code?
+Go to the following path:
+- target/generated-sources/openapi/src/main/java/com/exercise/openapi
+
 
 ### References:
 - https://www.baeldung.com/java-openapi-generator-server
