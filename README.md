@@ -5,6 +5,11 @@
 The OpenAPI Generator generates code from an OpenAPI specification. 
 It can create code for client libraries, server stubs, documentation and configuration.
 
+## Tech stack
+- Spring boot 3
+- Java 17
+- OpenAPI Generator
+
 ### What do I have to add in the project?
 
 - Main class -> Application.java
