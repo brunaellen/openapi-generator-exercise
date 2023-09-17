@@ -8,6 +8,7 @@ It can create code for client libraries, server stubs, documentation and configu
 ## Tech stack
 - Spring boot 3
 - Java 17
+- Maven
 - OpenAPI Generator
 
 ### What do I have to add in the project?
