@@ -39,6 +39,8 @@ Go to the following path:
 
 
 ### References:
+- https://github.com/OpenAPITools/openapi-generator/blob/master/modules/openapi-generator-maven-plugin/README.md
+- https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator-maven-plugin#general-configuration-parameters
 - https://www.baeldung.com/java-openapi-generator-server
 - https://www.baeldung.com/spring-rest-openapi-documentation
 - https://mydeveloperplanet.com/2022/02/08/generate-server-code-using-openapi-generator/
