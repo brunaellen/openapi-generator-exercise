@@ -103,6 +103,7 @@
                             <generatorName>spring</generatorName>
                             <apiPackage>com.exercise.openapi.api</apiPackage>
                             <modelPackage>com.exercise.openapi.model</modelPackage>
+                            <invokerPackage>com.exercise.openapi.invoker</invokerPackage>
                             <supportingFilesToGenerate>
                                 ApiUtil.java
                             </supportingFilesToGenerate>
